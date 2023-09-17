@@ -8033,6 +8033,6 @@ _getGSAP() && gsap.registerPlugin(Observer);
     return Splitting;
 });
 
-},{}]},["hSKu8","gTMSd"], "gTMSd", "parcelRequire2524")
+},{}]},["hSKu8","gTMSd"], "gTMSd", "parcelRequire9aec")
 
 //# sourceMappingURL=index.70862351.js.map
