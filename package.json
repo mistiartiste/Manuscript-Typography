@@ -8,17 +8,16 @@
     "clean": "rm -rf dist/*",
     "build:parcel": "parcel build src/index.html --no-content-hash --no-source-maps --public-url ./",
     "build": "npm run clean && npm run build:parcel",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -b gh-pages"
+    "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/mistiartiste/[NAME].git"
   },
   "keywords": [],
-  "author": "Misti",
+  "author": "Misti Artiste",
   "license": "MIT",
-  "homepage": "https://mistiartiste.github.io/Typography-Scroll/",
+  "homepage": "https://mistiartiste.github.io/Manuscript-Typography/",
   "devDependencies": {
     "gh-pages": "^6.0.0",
     "parcel": "^2.8.2"
