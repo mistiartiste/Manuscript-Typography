@@ -9,7 +9,7 @@
     "build:parcel": "parcel build index.html --no-content-hash --no-source-maps --public-url /Manuscript-Typography/",
     "build": "npm run clean && npm run build:parcel",
     "predeploy": "npm run build",
-    "deploy": "main -d dist"
+    "deploy": "npm start"
   },
   "repository": {
     "type": "git",
