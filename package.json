@@ -4,11 +4,12 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "description": "",
   "scripts": {
-    "start": "parcel src/index.html --open",
+    "start": "parcel index.html --open",
     "clean": "rm -rf dist/*",
-    "build:parcel": "parcel build src/index.html --no-content-hash --no-source-maps --public-url ./",
+    "build:parcel": "parcel build index.html --no-content-hash --no-source-maps --public-url /Manuscript-Typography/",
     "build": "npm run clean && npm run build:parcel",
-    "predeploy": "npm run build"
+    "predeploy": "npm run build",
+    "deploy": "main -d dist"
   },
   "repository": {
     "type": "git",
@@ -28,3 +29,4 @@
     "splitting": "^1.0.6"
   }
 }
+
